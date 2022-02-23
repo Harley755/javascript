@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#container {
+    width: 40vw;
+    height: 30vh;
+    background-color: lavenderblush;
+    border: 6px solid #fff;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#rec,
+#rec2 {
+    padding: 30px;
+    margin: 0 3px;
+    overflow-x: auto;
+}
+
+#rec {
+    border: 2px solid green;
+}
+
+#rec2 {
+    border: 2px solid blue;
+}
+
+input {
+    margin: 0 8px;
+    outline: none;
+    padding: 5px;
+}
+
+input:focus {
+    background-color: lightgoldenrodyellow;
+}
+
+input[type="button"] {
+    padding: 6px 15px;
+    background-color: red;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}

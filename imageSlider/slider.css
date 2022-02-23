@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carrousel {
+    width: 60vw;
+    height: 38vw;
+    border: 7px solid #fff;
+    box-shadow: 0 0 17px rgba(0, 0, 0, .5);
+    position: relative;
+    overflow: hidden;
+}
+
+#container,
+.photo {
+    width: 59vw;
+    height: 37vw;
+    background-size: cover;
+    display: inline-block;
+}
+
+.bouton {
+    position: absolute;
+    font-size: 35px;
+    color: red;
+    top: 16vw;
+    transform: scale(1);
+    transition: transform 2000;
+}
+
+#btnLeft {
+    left: 0;
+}
+
+#btnLeft:hover {
+    transform: scale(1.15);
+}
+
+#btnRight {
+    right: 0;
+}
+
+#btnRight:hover {
+    transform: scale(1.15);
+}
